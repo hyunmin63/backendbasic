@@ -78,3 +78,8 @@ Data를 Row와 Column으로 구성함.
 Key-Value 데이터인데, 이 때 하나의 키에 어떤 Entity는 5개의 Value를 갖고, 어떤 Entity는 3개의 Value를 갖는 느낌? 2차원적 Key-Value DB로 생각할 수 있다고 함.
 대량의 데이터를 저장할 때 적합하다. IoT Data나, 사용자의 Profile Data를 저장하는 데 사용됨.
 가장 인기있는 Wide Column Store로는 Cassandra와 HBase가 있다고 하네요.
+
+## 6. RethinkDB?
+Real-Time에 최적화된 Open Source Database.
+MongoDB와 비교해서 훨씬 실시간 동기화에 강함.
+다른 실시간 동기화 API와 비교해서, 많은 유연성을 가지고 있음.
